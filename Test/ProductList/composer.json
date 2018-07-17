@@ -1,0 +1,21 @@
+{
+    "name": "test/module-productlist",
+    "description": "",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "nitish",
+            "email": "nitish250788@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "test\\ProductList\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
